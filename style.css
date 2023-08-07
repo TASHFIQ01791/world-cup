@@ -1,0 +1,198 @@
+/* ----------------  using external things ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Heebo&family=Poppins:wght@500&family=Rubik&display=swap');
+
+/* 1st section of the website */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+/* -------------------- carosel part ---------------------- */
+.container{
+    margin:45px 139px 132px 100px;
+}
+.background{
+    height: 646px;
+    width: 1321px;
+    background-color: #161616;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.background-elements{
+    margin:0px 113px 80px 113px;
+}
+.background h2{
+    color: white;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.section-paragraph{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 30px;
+}
+.background a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #DD0000;
+    background-color: #DD0000;
+    padding: 13px 40px;
+    border-radius: 5px;
+}
+.fontawsome{
+    position: relative;
+    bottom: 30px;
+    right: 40px;
+}
+
+.banner img{
+    height: 613px;
+    width: 581px;
+    margin:40px 40px 0px 0px;
+}
+
+/* ----------------2nd part og the website ------------------- */
+.separate{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------------------start form--------------------- */
+.control{
+    margin-top: 130px;
+}
+.all-links{
+    height: 300px;
+    width: 270px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.all-links div{
+    border: 1px solid white;
+    height: 54px;
+    width: 152px;
+}
+ .same{
+    text-decoration: none;
+    color: #161616;
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    border-radius: 5px;   
+}
+
+#same{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+} 
+.link-text{
+    margin-left: 35px;
+}
+.link-id-text{
+    margin-left: 50px;
+}
+/* ----------------------end of form---------------------- */
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    column-gap: 25px;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+.blog-content{
+    border: 1px solid gainsboro;
+    width: 312px;
+    border-radius: 12px;
+}
+.alignment{
+    margin-left: 15px;
+}
+
+.blog-content>img{
+    height: 175px;
+    width: 312px;
+}
+
+
+.blog-content h2{
+    font-size: 16px;
+}
+.transfer{
+   margin-top: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+}
+.blog-link{
+    text-decoration: none;
+    border: 1px solid gray;
+    color: #161616;
+    font-size: 16px;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.icon{
+    display: flex;
+    color: #161616;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 33px;
+}
+
+.icon{
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}  
+/* -------------------------End of Grid --------------------- */
+.footer{
+    height: 444px;
+    width: 1600px;
+    background-color: #161616;
+}
+.foot-text{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.foot-align{
+    padding-top: 80px;
+    
+}
+
+hr{
+    border: 1px solid gray;
+    width: 1320px;
+}
+
+.foot-nav{
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.foot-nav a{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin-right: 30px;
+}
+/* -----------------------Ending footer------------------------ */
