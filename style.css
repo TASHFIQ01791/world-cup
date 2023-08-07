@@ -83,21 +83,25 @@ body{
     width: 152px;
 }
  .same{
-    text-decoration: none;
-    color: #161616;
+
     background-color: #FFFFFF;
     padding: 5px 20px;
     border-radius: 5px;   
 }
-
-#same{
+.same a{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #161616;
+}
+#same{
     background-color: #DD0000;
     padding: 5px 20px;
     border-radius: 5px;
     border: 1px solid black;
 } 
+#same a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .link-text{
     margin-left: 35px;
 }
@@ -196,3 +200,24 @@ hr{
     margin-right: 30px;
 }
 /* -----------------------Ending footer------------------------ */
+
+/* ----------------upcomming match website --------------------*/
+
+.upcomming-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-top:130px ;
+ 
+}
+.matches{
+    border: 1px solid gray;
+    padding: 35px;
+    border-radius: 10px;
+}
+.compare{
+    display: flex;
+    column-gap: 5px;
+}
