@@ -78,10 +78,11 @@ body{
     align-items: center;
 }
 .all-links div{
-    border: 1px solid white;
+    
     height: 54px;
     width: 152px;
 }
+
  .same{
 
     background-color: #FFFFFF;
@@ -91,12 +92,13 @@ body{
 .same a{
     text-decoration: none;
     color: #161616;
+  
 }
 #same{
     background-color: #DD0000;
     padding: 5px 20px;
     border-radius: 5px;
-    border: 1px solid black;
+    
 } 
 #same a{
     text-decoration: none;
@@ -186,6 +188,9 @@ hr{
     border: 1px solid gray;
     width: 1320px;
 }
+.extra-button{
+    display: none;
+}
 
 .foot-nav{
     margin-top: 54px;
@@ -221,3 +226,123 @@ hr{
     display: flex;
     column-gap: 5px;
 }
+
+/* --------------------FOR MEDIUM SCREEN----------------------- */
+
+ @media screen and (min-width:688px) and (max-width:992px){
+
+    .background{
+        height: 398px;
+        width: 700px;
+    }
+
+    .background h2{
+        color: white;
+        font-size: 30px;
+        line-height: 30px;
+        position: relative;
+        top: 70px;
+        right: 30px;
+    }
+    .section-paragraph{
+        font-size: 13px;
+        height: 60px;
+        position: relative;
+        top: 60px;
+        right: 30px;
+        overflow: hidden;
+        margin-bottom: 80px;
+    }
+    .background a{
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: -30px;
+    }
+    .fontawsome{
+        position: relative;
+        bottom: -3px;
+        right: 18px;
+    }
+    .banner img{
+        height: 340px;
+        width: 323px;
+        margin:65px 40px 0px 0px;
+    }
+
+    
+    /* -----------------end of banner part ---------------------*/
+    .separate{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        column-gap: 30px;
+    }
+    .all-links{
+        height: 100px;
+        width:690px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        margin-top: -95px;
+    }
+    .all-links div{
+        border: 1px solid gray;
+        margin-right: 40px;
+        border-radius: 10px;
+    }
+    
+    /* -----------------end link part ------------------------*/
+    .blog-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 50px;
+        column-gap: 25px;
+        margin-top: auto;
+    }
+    .extra-button{
+        display: inline;
+        border: 1px solid rgb(220, 20, 20);
+        background-color: crimson;
+        color: white;
+        padding: 15px 40px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 80px;
+        left: 380px;
+        font-weight: 700;
+    }
+
+    .upcomming-container
+    {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-top:-10px ;
+    }
+    /* ------------------------end of grid part--------------- */
+    .footer{
+        height: 345px;
+        width: 100%;
+    }  
+} 
+
+/* @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .background{
+        height: 472px;
+        width: 334px;
+        display: flex;
+        flex-direction: column;
+    }
+    .background h2{
+        color: white;
+        font-size: 22px;
+        line-height: 10px;
+         position: relative;
+        top: 40px;
+        right: 40px;
+    }
+} */
