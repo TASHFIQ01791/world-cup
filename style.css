@@ -83,9 +83,7 @@ body{
     width: 152px;
 }
 
- .same{
-
-    background-color: #FFFFFF;
+.same{background-color: #FFFFFF;
     padding: 5px 20px;
     border-radius: 5px;   
 }
@@ -277,6 +275,7 @@ hr{
         margin-left: 25px;
         column-gap: 30px;
     }
+
     .all-links{
         height: 100px;
         width:690px;
@@ -285,6 +284,7 @@ hr{
         flex-direction: row;
         margin-top: -95px;
     }
+
     .all-links div{
         border: 1px solid gray;
         margin-right: 40px;
@@ -327,10 +327,10 @@ hr{
     }  
 } 
 
-/* @media only screen and (max-width:688px) {
-    .container{
-        width: 100%;
-    }
+/* --------------------SMALL SIZE MEDIA QUERY ------------------ */
+
+ @media only screen and (max-width:688px) {
+
     .background{
         height: 472px;
         width: 334px;
@@ -339,10 +339,97 @@ hr{
     }
     .background h2{
         color: white;
-        font-size: 22px;
-        line-height: 10px;
+        font-size: 15px;
+        line-height: 15px;
          position: relative;
-        top: 40px;
-        right: 40px;
+         top: 30px;
+         right: 5px;
+
     }
-} */
+        .section-paragraph{
+        font-size: 8px;
+        height: 60px;
+        position: relative;
+        top: 30px;
+        right: 5px;
+        overflow: hidden;
+        
+    }
+    .background a{
+        font-size: 10px;
+        padding: 5px 25px;
+        margin-left: -6px;
+    }
+    .fontawsome{
+        position: relative;
+        bottom: 22px;
+        left: 78px;
+    }
+    .banner img{
+        height: 245px;
+        width: 233px;
+        position: relative;
+        bottom: 121px;
+        left: 35px;
+        /* margin:65px 40px 0px 0px; */
+    }
+
+    
+    /* -----------------end of banner part ---------------------*/
+    .separate{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .all-links{
+
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        margin-top: -120px;
+        margin-left: 20px;
+    }
+    .all-links div{
+        border: 1px solid gray;
+        border-radius: 15px;
+        font-size: 15px;
+      
+    }
+    #same{
+        border-radius: 15px;
+        
+    } 
+
+    .blog-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 50px;
+        column-gap: 25px;
+        margin-top: auto;
+    }
+
+    .upcomming-container
+    {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-top:-10px ;
+    }
+    /* ------------------------end of grid part--------------- */
+
+    .footer{
+        height: 500px;
+        width: 100%;
+    }  
+    hr{
+        width: 80%;
+    }
+    .foot-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 35px;
+    }
+    
+} 
